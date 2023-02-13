@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+ <HTML lang="en">
+  <HEAD> 
+    <TITLE>Schmunuck Shop</TITLE> <!--The tab name-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href = "fourstyle.css"><!--the css style page link-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This helps the page collapse properly-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"><!--bootstrap link-->
+  </HEAD>
+  <BODY style="background-color: black;">
+   <nav class = "upper">
+     
+     <img class = "logo" src = "images/Schmublack.png" alt = "schmunuck logo" width = 100px>
+     <br>
+   <h1><b><a href = "shop.html"> Shop Now</a></b></h1>
+   <br>
+   
+    <!--Navigation bar between pages-->
+   <div class="fun">
+   <h6>
+     <a href = "index.html"> Home Page </a> &nbsp &nbsp 
+     <a href = "shop.html">  Shop Now </a> &nbsp &nbsp
+     <a href = "about.html">  Learn About Us </a> &nbsp &nbsp
+     <a href = "contact.html">  Contact Us </a>
+   </h6>
+
+   
+   </div>   
+   </nav>
+    <br>
+    <h3 style="color: orange;"><em><b>Browse to your heart's delight</b></em></h3>
+  
+
+    <header class="intro">
+ 
+    </header>
+    <main><!--author codehim--><!--creates the 4 boxes for each of the products with names, images, prices, and add to cart button-->
+        <div class="container">
+         <div class="row">
+           <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+             <h4 class="badge-pill badge-warning text-dark mt-3 mb-3 p-2 text-center"><b>Schmunuck Store</b></h4>
+             <div class="row">
+               <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                 <div class="shadow-sm card mb-3 product">
+                   <img class="product-img" src="images/Schmublack.png" alt="image of logo t-shirt" onmouseover="animateImg(this)"
+                   onmouseout="normalImg(this)"/>
+                   <div class="card-body">
+                     <h5 class="card-title text-warning bold product-name">Schmunuck Logo Poster</h5>
+                     <p class="card-text text-success product-price">  30 £</p>
+                     <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                       data-action="add-to-cart">Add to cart</button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                 <div class="shadow-sm card mb-3 product">
+                   <img class="product-img" src="images/logo.png" alt="Image of retro logo on t-shirt" onmouseover="animateImg(this)"
+                   onmouseout="normalImg(this)"/>
+                   <div class="card-body">
+                     <h5 class="card-title text-warning product-name">Retro Logo Poster</h5>
+                     <p class="card-text text-success product-price"> 40 £</p>
+                     <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                     data-action="add-to-cart">Add to cart</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                 <div class="shadow-sm card mb-3 product">
+                   <img class="product-img" src="images/screenshot1.png" alt="Muck album cover" onmouseover="animateImg(this)"
+                   onmouseout="normalImg(this)"/>
+                   <div class="card-body">
+                     <h5 class="card-title product-name">The Muck Album Vinyl</h5>
+                     <p class="card-text text-success product-price"> 20 £</p>
+                     <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button" 
+                     data-action="add-to-cart">Add to cart</button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+                   <div class="shadow-sm card mb-3 product">
+                     <img class="product-img" src="images/screenshot-dog.png" alt="Nucky plushie" onmouseover="animateImg(this)"
+                     onmouseout="normalImg(this)"/>
+                     <div class="card-body">
+                       <h5 class="card-title product-name">Nucky plushie</h5>
+                       <p class="card-text text-success product-price"> 25 £</p>
+                       <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                       data-action="add-to-cart">Add to cart</button>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+           </div>
+           <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+             <h4 class="badge-pill badge-warning text-dark mt-3 mb-3 p-2 text-center"><b>Cart</b></h4>
+             <div class="cart"></div>
+           </div>
+         </div>
+       </div>    
+    </main>
+    <script  src="shopscript.js"></script><!--accesses the javascript from shopscript by codehim to make the cart buttons function-->
+
+    <nav class="lower"><!--copyright bar at bottom of each page-->
+      <br>
+      <b>@Copyright Schmunuck 2023</b>
+      <br>
+      <br>
+      
+    </nav>
+
+   </BODY>
+ </HTML>

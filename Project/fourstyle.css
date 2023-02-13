@@ -1,0 +1,217 @@
+h1 { /*title of page*/
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: auto;
+    margin-right: 5%;
+    display: block;
+    text-align: center;
+    padding-left: 50px;
+    
+}
+h6{ /*navigation bar*/
+    text-align: center;
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-flex;
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 0px 2px;
+    margin-right: 5%;
+     
+}
+.fun { /*centers nav bar*/
+    text-align: center;
+    
+}
+
+/*colours the background and puts logo there*/
+body {
+    background-image: url("images/Schmublack.png"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+    background-color: black;
+    margin: auto;
+    padding: black;
+}
+.stugg{
+    background-image: url("images/Schmublack.png"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+    background-color: black;
+    margin: auto;
+    padding: black;
+    
+}
+/*positions and modifies the logo in top right corner*/
+.logo{ 
+   float: left; 
+   border-radius: 50%;
+   background-color: black;
+   margin-top: 1%;
+   margin-left: 1%;
+   margin-bottom: 1%;
+} 
+/*link styling*/
+a:link{
+    color: black;
+    text-decoration: none;   
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: black;
+    text-decoration: none;
+}
+h6 a:hover{
+    text-decoration: none;
+}
+/*body text styling*/
+h3 {
+    font-size: 40px;
+    display:block;
+    margin: auto;
+    text-align: center;
+    color: orange;
+    background-color: black;
+}
+/*video styling*/
+video {
+    display: block;
+    margin: auto;
+    
+}
+.dramatic{
+    max-width: 500px;
+}
+.dog{
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+.ad{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-style: normal;
+}
+.Muck{
+    margin: auto;
+    display: block;
+}
+
+audio {
+    display: block;
+    margin: auto;
+}
+/*body text styling for contact and about page*/
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+.info{
+    font-size: large;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 2px;
+    border: solid;
+    background-color: white;
+    padding: 5px;
+    border-color: orange;
+    
+}
+table{
+    color: white;
+    text-align: center;
+}
+
+/*navbar stlying*/
+.lower{
+    background-color: orange;
+    margin-top: 20%;
+    text-align: right;
+}
+.upper{
+    background-color: orange;
+    position: sticky;
+    margin-top: 0%;
+}
+
+.wahoo{
+    background-color: black;
+    color: orange;
+}
+
+/*Shop styling*/
+
+.product-name {
+    font-weight: 700;
+    text-decoration: underline;
+    color: orange;
+    
+}
+    
+.product-price, .cart_item_price {
+    font-style: oblique;
+    font-family: cursive;
+}
+    
+.product-img {
+    max-width: 140px;
+    margin: 0 auto;
+}
+    
+.card {
+    border: 4px solid orange;
+}
+    
+.btn:disabled {
+    opacity: 0.5;
+}
+    
+h4 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+    
+.cart_item_name {
+    font-weight: 700;
+}
+    
+.cart {
+        background-color: white;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.1);
+    font-family: cursive;
+    font-size: xx-large;
+    cursor: wait;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+    
+.paypal {
+    display: none;
+}
+
+

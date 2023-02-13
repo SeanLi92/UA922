@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+ <HTML>
+  <HEAD>
+    <TITLE>Schmunuck Contact</TITLE> <!--The tab name-->
+    <link rel="stylesheet" href = "fourstyle.css"><!--the css style page link-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This helps the page collapse properly-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"><!--bootstrap link-->
+  </HEAD>
+  <BODY>
+   <nav class = "upper">
+     
+     <img class = "logo" src = "images/Schmublack.png" alt = "schmunuck logo" width = 100px>
+     <br>
+   <h1><b><a href = "contact.html"> Contact Us</a></b></h1>
+   <br>
+   
+    <!--Navigation bar between pages-->
+   <div class="fun">
+   <h6>
+     <a href = "index.html"> Home Page </a> &nbsp &nbsp 
+     <a href = "shop.html">  Shop Now </a> &nbsp &nbsp
+     <a href = "about.html">  Learn About Us </a> &nbsp &nbsp
+     <a href = "contact.html">  Contact Us </a>
+   </h6>
+   
+   </div>   
+   </nav>
+   <div class="stugg">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class = "info">
+    <p style="text-align: center;">Send an email to us directly with the link below</p>
+  
+    <P style="text-align: center; color: orange;"><a href = "mailto: l38985721@student.ua92.ac.uk">Send Email</a></P>
+    <br>
+    <p style = "text-align: center;">Otherwise please contact us at the number 0023423758325634 or enter your details below and a desccription of what you want to reach us about.</p>
+    <br>
+    <br>
+    <form style = "text-align: center;">
+      First name: 
+      <br>
+      <input type = "text" name = "first_name" required/>
+      <br> <br>
+      Last name:
+      <br>
+      <input type = "text" name = "last_name" required/>
+      
+      <br>
+      <br>
+      
+      Email: 
+      <br>
+      <input type = "email" id = "email" name = "email" required/>
+      <br> <br>
+      Phone number: 
+      <br>
+      <input type = "tel" id = "phone" name = "phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required/>
+      <br>
+      (format number as XXX-XXX-XXXX)
+      <br>
+      <br>
+      <!--makes a text box to type in-->
+      
+        Description : <br />
+        <textarea style="margin: 0; width: 60%;"  rows = "10" cols = "70"  name = "description" required>
+         
+        </textarea>
+      
+      <br>
+      <!--makews checkbox for both email and pnone # depedning on user preference-->
+      I would prefer to be reached by
+      <br>
+        <input type = "checkbox" name = "email" value = "on"> Email
+        <input type = "checkbox" name = "phone" value = "on"> Phone number
+       
+       <br>
+       <br>
+       <!--makes submit button which validates other elements-->
+       <input class = "wahoo" type = "submit" name = "submit" value = "Submit" />
+       <br><br>
+      </form>
+      </div>
+
+   <nav class="lower"><!--copyright bar at bottom of each page-->
+    <br>
+    <b>@Copyright Schmunuck 2023</b>
+    <br>
+    <br>
+      
+  </nav>
+  </BODY>
+ </HTML>
